@@ -18,7 +18,7 @@ export default {
         // Light Theme Colors
         "light-toggle": "hsl(230, 22%, 74%)",
         // Neutral Colors - Dark Theme
-        "very-dark-blue-bg": "hsl(230, 17%, 14%)",
+        "background-dark": "hsl(230, 17%, 14%)",
         "very-dark-blue-top-bg": "hsl(232, 19%, 15%)",
         "dark-desaturated-blue-card-bg": "hsl(228, 28%, 20%)",
         "desaturated-blue-text": "hsl(228, 34%, 66%)",
