@@ -2,7 +2,11 @@
 
 const App = () => {
   return (
-    <div></div>
+    <div className="
+      font-inter
+    ">
+      
+    </div>
   );
 }
 
