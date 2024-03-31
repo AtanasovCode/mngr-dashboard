@@ -6,7 +6,7 @@ export default {
       colors: {
         //primary colors
         'lime': "hsl(163, 72%, 41%)",
-        'brightRed': "Bright Red: hsl(356, 69%, 56%)",
+        'brightRed': "hsl(356, 69%, 56%)",
         //dark theme
         'background': "hsl(230, 17%, 14%)",
         'backgroundPattern': "hsl(232, 19%, 15%)",

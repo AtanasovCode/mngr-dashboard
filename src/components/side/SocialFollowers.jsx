@@ -6,7 +6,8 @@ const SocialFollowers = ({
   username,
   followers,
   today,
-  increase
+  increase,
+  type,
 }) => {
 
   return (

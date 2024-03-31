@@ -6,8 +6,7 @@ const Followers = ({
   followersData,
 }) => {
   return (
-    <div className="flex flex-col w-[90%] overflow-hidden mb-8
-    ">
+    <div className="flex flex-col w-[90%] overflow-hidden mb-8">
       <div className="flex flex-col mb-8 p-5">
         <div className="text-2xl font-bold mb-2">Social Media Dashboard</div>
         <div className="text-md text-desaturated-blue-text">Total followers: 23,004</div>
@@ -26,6 +25,7 @@ const Followers = ({
                 today={data.today}
                 icon={data.icon}
                 increase={data.increase}
+                type={data.type}
               />
             );
           })
