@@ -9,9 +9,9 @@ const DailyOverview = ({
     label,
 }) => {
     return (
-        <div className="flex flex-col bg-card w-full p-6 rounded-md">
+        <div className="flex flex-col bg-card dark:bg-card-dark w-full p-6 rounded-md lg:p-8">
             <div className="flex items-center justify-between mb-6">
-                <div className="text-textAccent">{label}</div>
+                <div className="text-textAccent dark:text-textAccent-dark">{label}</div>
                 <img src={icon} alt="social media icon" />
             </div>
 

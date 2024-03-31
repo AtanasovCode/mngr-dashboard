@@ -6,7 +6,7 @@ const Overview = ({ data }) => {
             <div className="text-2xl font-bold mb-6">Overview - Today</div>
 
             <div className="grid grid-cols-1 gap-4 w-full
-            sm:grid-cols-2 lg:grid-cols-4
+            sm:grid-cols-2 lg:grid-cols-4 lg:gap-8
             ">
                 {
                     data.map((item) => {

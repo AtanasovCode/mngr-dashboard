@@ -31,16 +31,16 @@ const SocialFollowers = ({
   }
 
   return (
-    <div className={`flex flex-col items-center justify-center w-full bg-card p-6 rounded-md relative overflow-hidden`}>
+    <div className={`flex flex-col items-center justify-center w-full bg-card dark:bg-card-dark p-6 rounded-md relative overflow-hidden`}>
       <div className={`absolute w-full top-0 left-0 h-1 ${borderColor}`}></div>
       <div className="flex items-center justify-center mb-5">
         <img src={icon} alt="social media icon" className="mr-2" />
-        <div className="text-textAccent"> {username} </div>
+        <div className="text-textAccent dark:text-textAccent-dark"> {username} </div>
       </div>
 
       <div className="flex flex-col items-center justify-center mb-8">
         <div className="font-extrabold text-4xl mb-4"> {followers} </div>
-        <div className="text-textAccent tracking-[.4rem]">FOLLOWERS</div>
+        <div className="text-textAccent dark:text-textAccent-dark tracking-[.4rem]">FOLLOWERS</div>
       </div>
 
       <div className="flex items-center justify-center">
@@ -48,12 +48,12 @@ const SocialFollowers = ({
           increase ? (
             <>
               <img src={upIcon} alt="icon down" className="w-3 mr-2" />
-              <div className="text-green-400"> {today} </div>
+              <div className="text-lime"> {today} </div>
             </>
           ) : (
             <>
               <img src={downIcon} alt="icon down" className="w-3 mr-2" />
-              <div className="text-red-400"> {today} </div>
+              <div className="text-brightRed"> {today} </div>
             </>
           )
         }

@@ -9,11 +9,11 @@ const Followers = ({
     <div className="flex flex-col w-[90%] overflow-hidden mb-8">
       <div className="flex flex-col mb-8 p-5">
         <div className="text-2xl font-bold mb-2">Social Media Dashboard</div>
-        <div className="text-md text-desaturated-blue-text">Total followers: 23,004</div>
+        <div className="text-md text-textAccent dark:text-textAccent-dark">Total followers: 23,004</div>
       </div>
 
       <div className="grid grid-cols-1 gap-4 w-full
-      sm:grid-cols-2 lg:grid-cols-4
+      sm:grid-cols-2 lg:grid-cols-4 lg:gap-6
       ">
         {
           followersData.map((data) => {
