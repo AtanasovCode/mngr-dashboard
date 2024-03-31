@@ -17,7 +17,7 @@ export default {
         'facebook': "hsl(208, 92%, 53%)",
         'instagramGradientStart': "hsl(37, 97%, 70%)",
         'instagramGradientEnd': "hsl(329, 70%, 58%)",
-        'twitter': "sl(203, 89%, 53%)",
+        'twitter': "hsl(203, 89%, 53%)",
         'youtube': "hsl(348, 97%, 39%)",
       },
       fontFamily: {
