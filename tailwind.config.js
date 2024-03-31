@@ -13,12 +13,12 @@ export default {
         'backgroundPattern': "hsl(232, 19%, 15%)",
         'card': "hsl(227, 47%, 96%)",
         'textAccent': "hsl(228, 12%, 44%)",
-        'text': " hsl(230, 17%, 14%)",
+        'text': "hsl(230, 17%, 14%)",
         //light mode
         'background-dark': "hsl(230, 17%, 14%)",
         'backgroundPattern-dark': "hsl(232, 19%, 15%)",
         'card-dark': "hsl(228, 28%, 20%)",
-        'textAccent-dark': " hsl(228, 34%, 66%)",
+        'textAccent-dark': "hsl(228, 34%, 66%)",
         'text-dark': "hsl(0, 0%, 100%)",
         //socials
         'facebook': "hsl(208, 92%, 53%)",
