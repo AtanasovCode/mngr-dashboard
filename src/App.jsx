@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div
       className="w-screen min-h-screen font-inter bg-background text-text
-      flex items-center justify-center"
+      flex items-start justify-center"
     >
       <Followers followersData={followersData} />
     </div>

@@ -31,7 +31,7 @@ const followersData = [
     {
         id: 4,
         username: "Nathan F.",
-        subscribers: 8239,
+        followers: 8239,
         today: 144,
         icon: youtube,
         increase: false,
