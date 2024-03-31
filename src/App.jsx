@@ -4,7 +4,7 @@ import { followersData } from "./data/FollowersData";
 const App = () => {
   return (
     <div
-      className="w-screen min-h-screen font-inter bg-background-dark text-white
+      className="w-screen min-h-screen font-inter bg-background text-text
       flex items-center justify-center"
     >
       <Followers followersData={followersData} />
